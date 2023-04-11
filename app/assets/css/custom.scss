@@ -1,0 +1,22 @@
+
+@import "../../../node_modules/bootstrap/scss/functions";
+
+$primary: $jujuba-blue;
+$secondary: $jujuba-purple;
+$warning: $jujuba-pink;
+$danger: $marceline-wine;
+$info: $jujuba-purple;
+
+$card-cap-bg: $jujuba-blue;
+
+#form-header {
+  border-bottom: transparent;
+}
+
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/maps";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/root";
+
+@import "../../../node_modules/bootstrap/scss/reboot";
+@import "../../../node_modules/bootstrap/scss/type";

@@ -6,8 +6,8 @@
 			<thead>
 				<tr>
 					<th scope="col">#</th>
-					<th scope="col">Fist Name</th>
-					<th scope="col">Last Name</th>
+					<th scope="col">Given Name</th>
+					<th scope="col">Family Name</th>
 					<th scope="col">Age</th>
 					<th scope="col">Room</th>
 				</tr>

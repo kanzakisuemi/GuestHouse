@@ -5,7 +5,7 @@
 		<table class="table caption-top">
 			<thead>
 				<tr>
-					<th scope="col">#</th>
+					<th scope="col"></th>
 					<th scope="col">Given Name</th>
 					<th scope="col">Family Name</th>
 					<th scope="col">Age</th>
@@ -22,7 +22,7 @@
 						<td><?= $row['glName'] ?></td>
 						<td><?= $row['gAge'] ?></td>
 						<td><?= $row['gRoom'] ?></td>
-						<td><a class="btn btn-warning btn-sm" href="show.php?gid=<?=$row['gid']; ?>">Edit</a></td>
+						<td><a class="btn btn-primary btn-sm" href="show.php?gid=<?=$row['gid']; ?>">Edit</a></td>
 						<td><a class="btn btn-danger btn-sm" href="delete.php?gid=<?=$row['gid']; ?>" onclick="return confirm('Are u sure about deleting it?')">Delete</a></td>
 						</tr>
 				<?php endwhile; ?>
