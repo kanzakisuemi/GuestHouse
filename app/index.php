@@ -1,3 +1,13 @@
 <?php include 'inc/header.php' ?>
-	<img src="img/emoji3d2.jpeg" style="width: 100%">
+<div class="row pt-5">
+<!-- 	<div class="col text-center">
+		<img src="assets/img/moving-white.png" style="width: 70%">
+	</div> -->
+	<div class="col text-center">
+		<img src="assets/img/casa-do-vale.png" style="width: 80%">
+	</div>
+<!-- 	<div class="col text-center">
+		<img src="assets/img/PetFriendly-white.png" style="width: 70%">
+	</div> -->
+</div>
 <?php include 'inc/footer.php' ?>
