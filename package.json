@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.61.0"
+  },
+  "scripts": {
+    "build:css": "yarn sass app/assets/css/application.scss app/assets/builds/application.css"
+  }
+}
